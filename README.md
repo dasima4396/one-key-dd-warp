@@ -146,3 +146,13 @@ fs.nr_open = 1048576
 - 脚本支持IPv6only机器只能用DHCP.
 - 支持自动配置ip4/6，无需手动更改。仅支持Debian, DHCP.
 - 自动检查网络是DHCP 还是 static
+
+# 萌咖的dd脚本
+据说dd ipv6 only的机器会失联，改天验证一下。
+安装命令：
+```bash
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -d 12 -v 64 -a -p xxx -port 4598
+```
+-a表示自动安装，-p后面是密码 -d表示debian12。
+
+
