@@ -91,6 +91,7 @@ Windows: 3389
 <br />
 
 **--ip6-mask "IPv6 subnet musk"**: 必须和--ip6-addr 以及 --ip6-gate一起. IP计算网站: https://en.rakko.tools/tools/27/
+ip6并没有ip4的子网掩码，它叫做前缀长度。比如/64或者/128
 <br />
 <br />
 
