@@ -151,8 +151,11 @@ fs.nr_open = 1048576
 据说dd ipv6 only的机器会失联，改天验证一下。
 安装命令：
 ```bash
-bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -d 12 -v 64 -a -p xxx -port 4598
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/dasima4396/Tools/master/InstallNET.sh') -d 12 -v 64 -a -p xxx -port 4598
 ```
 -a表示自动安装，-p后面是密码 -d表示debian12。
-
-
+dd ipv6 only机器要固定ip地址，命令为：
+```bash
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/dasima4396/Tools/master/InstallNET.sh') -a -d 12 -v 64 -p '自定义' -port 自定义 --ip-addr 2001:ae8:120:3a::1/64 --ip-gate 2001:258:250:3b:: --ip-mask 255.255.255.254 --ip-dns 2001:67c:2b0::4
+```
+上面的ip和gateway必须是网页上的。dns是nat64,能访问ip4
