@@ -3,7 +3,6 @@
 
 ![](https://raw.githubusercontent.com/leitbogioro/Tools/master/imgs/2.png)
 
-![](https://raw.githubusercontent.com/leitbogioro/Tools/master/imgs/3.png)
 ## 下载
 <pre><code>wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/dasima4396/Tools/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh</code></pre>
 ### Debian 12
