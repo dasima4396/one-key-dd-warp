@@ -125,3 +125,8 @@ dd ipv6 only机器要固定ip地址，命令为：
 bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/dasima4396/Tools/master/InstallNET.sh') -a -d 12 -v 64 -p '自定义' -port 自定义 --ip-addr 2001:ae8:120:3a::1/64 --ip-gate 2001:258:250:3b:: --ip-mask 255.255.255.254 --ip-dns 2001:67c:2b0::4
 ```
 上面的ip和gateway必须是网页上的。dns是nat64,能访问ip4
+
+# 一键warp脚本
+```bash
+wget https://raw.githubusercontent.com/dasima4396/one-key-dd-warp/master/swap.sh && bash swap.sh
+```
